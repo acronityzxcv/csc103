@@ -11,6 +11,16 @@ using std::cout;
 
 int main()
 {
+int n, m;
+/* n is length and m is wide*/
+ cin >> n >> m;
+	 for (int i = 0; i < n ; i++) {
+ for (int h = 0; h < m ; h++){
+	 cout << "*";
+ }
+ cout << "\n";
+
+	 }
 	return 0;
 }
 

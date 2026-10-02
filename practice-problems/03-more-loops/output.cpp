@@ -15,5 +15,9 @@ int main()
 	cout << "i == " << i << "\n";
 	return 0;
 }
-
+/*i == 0
+ *i == 6
+ *i == 12
+ *i == 15
+ * This checks if i is divisible by 2 and 3*/
 // vim:foldlevel=2
