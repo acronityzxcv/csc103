@@ -10,6 +10,13 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+	/* tried to have double avg outside of if, it was not in  the scope i believe*/
+	int x, y, z; 
+		if(cin >> x >> y >> z){
+		int sum = x + y + z;
+		double avg = (sum/3.0);
+		cout << avg << "\n";
+		}
 	return 0;
 }
 

@@ -15,7 +15,20 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+
+	int x; /* number */
+	int y = 0; /* sum */
+	while(cin >> x){
+		if (x % 2 == 0){
+	 		y += x;
+	} else{
+		y -= x;
+	}
+	}	
+		cout << y << "\n";
 	return 0;
 }
+/* correct answer, but I have to enter a letter to get answer*/
 
+/* couldn't figure out bounus if question */
 // vim:foldlevel=2

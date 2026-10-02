@@ -16,7 +16,16 @@ int main()
 	 * 3. What type of result do you get when adding or multiplying
 	 *    floating point values with integers? */
 
+	int y = 10.9;
+	double x = 10;
+	double a = 10.8;
+	int b = 11;
+	cout << y << "\n";
+	cout << x << "\n";
+	cout << a + b << "\n";
 	return 0;
 }
-
+/* 1. It looses the decimal value
+ * 2. Float can handle less data meaning higher numbers will fail
+ * 3. Alway becomes a floating point */
 // vim:foldlevel=2

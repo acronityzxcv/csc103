@@ -5,6 +5,7 @@ using std::cout;
  * Then compile and run it to check your answers and make sure you
  * understand what is going on if any of your guesses were wrong. */
 
+
 int main()
 {
 	int x = 16;
@@ -15,5 +16,6 @@ int main()
 	cout << "x == " << x << "\n";
 	return 0;
 }
-
+/* x is divided by 2 until 0*/
+/* 16 8 4 2 1 0*/
 // vim:foldlevel=2

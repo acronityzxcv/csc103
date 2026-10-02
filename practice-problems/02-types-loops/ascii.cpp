@@ -19,7 +19,11 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+	/* simple for loop starting at 32 and stops after 126*/
+	for(int i = 32; i <= 126; i++){
+		cout << i << "::" << char(i) << "\n";
+	}
+
 	return 0;
 }
-
 // vim:foldlevel=2

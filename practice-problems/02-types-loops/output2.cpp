@@ -16,5 +16,7 @@ int main()
 	cout << "x == " << x << "\n";
 	return 0;
 }
-
+/* 9 7 5 3 */
+/* while statement goes until x is > 0, but if prints when x is greater than 6 and x % 5 is true or one */
+/* 9 7 3 1 -1*/
 // vim:foldlevel=2

@@ -12,7 +12,20 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+	int n;
+	int i = 0;
+	cin >> n;
+	if(n != 0){
+		while (n % 2 == 0){
+				i++;
+					n/=2;
+		}
+		cout << "divided: " << i << " times\n";
+	}
 	return 0;
 }
-
+/* i should be declared outside of for scope*/
+/* make sure it can start when 0 doesn't create infinite loop*/
+/* Instead of && with n != 0 and n % 2, I can do if with a while loop instead of a for loop*/
+/*forgot to do i = 0 to intialize*/
 // vim:foldlevel=2
