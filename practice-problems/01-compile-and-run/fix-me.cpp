@@ -10,13 +10,13 @@ int main()
 	int m = INT_MIN;
 	int x;
 
-	while (true) {
-		cin >> x
+	while (cin >> x) { /* Defaulting to -247... The while statment immediately stopped before it started. */
+		cin >> x; /* forgot ;*/
 		/* check if read into green was successful: */
 		if (!cin.good()) break; /* if read failed, exit the loop */
 		if (x > m) m = x;
 	}
-	cout << 'largest value was ' << m << '\n';
+	cout << "largest value was " << m << '\n'; /* need ' ' for strings */
 	return 0;
 }
 

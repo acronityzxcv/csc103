@@ -12,22 +12,21 @@
 
 /* 1. */
 
-if (b) {
-	X;
-}
-
+bool run_1 = true;
+while (b && run_1) {
+    X;
+    run_1 = false;
 /* 2. */
 
-for (X; b; Y) {
-	Z;
-}
-
+while (b) {
+    Z;
+    Y;
 /* 3. */
 
-do {
-	X;
-} while (b);
-
+bool first = true;
+while (first || b) {
+    X;
+    first = false;
 /* 4. */
 
 if (b) {

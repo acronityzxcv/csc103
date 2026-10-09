@@ -12,10 +12,26 @@
  * */
 
 /* your answer goes here... */
+#include <iostream>
+using std::cout;
 
-int main()
-{
-	return 0;
+bool isEven(int n);
+
+bool isOdd(int n) {
+	    if (n == 0) return false;
+		    return isEven(n - 1); 
+}
+
+bool isEven(int n) {
+	    if (n == 0) return true;
+		    return isOdd(n - 1);
+}
+
+int main() {
+	    if (isEven(4)) {
+			        cout << "4 is even\n";
+					    }
+		    return 0;
 }
 
 // vim:foldlevel=2

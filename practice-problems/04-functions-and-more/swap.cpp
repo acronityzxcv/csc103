@@ -7,10 +7,22 @@ using std::cin;
 using std::cout;
 
 /* your answer goes here... */
-
+void swap(int& a, int& b) {
+    int temp = a;  
+    a = b;       
+    b = temp; 
+}
 int main()
 {
 	/* TODO: write a little test here to make sure your function works. */
+  int x = 5;
+    int y = 10;
+    
+    cout << "Before swap: x = " << x << ", y = " << y << "\n";
+    
+    swap(x, y);
+    
+    cout << "After swap: x = " << x << ", y = " << y << "\n";
 	return 0;
 }
 

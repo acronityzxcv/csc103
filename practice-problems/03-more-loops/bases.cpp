@@ -12,6 +12,19 @@ using std::cout;
 int main()
 {
 	/* your answer goes here... */
+	 int b, n;
+	     
+  if (cin >> b >> n) {
+   if (n == 0) {
+   cout << 0;
+ } else {
+	 while (n > 0) {
+ cout << (n % b);
+	 n = n / b;
+ }
+}
+	 cout << "\n";
+ }
 	return 0;
 }
 

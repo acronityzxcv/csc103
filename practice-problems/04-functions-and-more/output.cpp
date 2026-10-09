@@ -22,5 +22,10 @@ int main()
 	cout << r << "\n";
     return 0;
 }
-
+/* 3 5 13 same
+ * x = 5++ , 6+= 10, ++6
+ * 6 16 6 wrong
+ * I was wrong since y doesnt connect since no ampersand
+ *6 5 6
+ 16*/
 // vim:foldlevel=2

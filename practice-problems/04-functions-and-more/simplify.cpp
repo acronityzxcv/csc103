@@ -9,13 +9,17 @@ int main()
 	 * you've got the right answer.) */
 	int x;
 	while (cin >> x) {
-		if ((x != 3 || x != 7) && (x != 0 || x != 1)) {
+	/*	if ((x != 3 || x != 7) && (x != 0 || x != 1)) {
 			cout << x << "\n";
 		} else if (x+1 > 13) {
 			cout << x+1 << "\n";
-		}
+		} */
+
+		cout << x << "\n";
 	}
 	return 0;
 }
+
+
 
 // vim:foldlevel=2

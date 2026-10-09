@@ -5,7 +5,7 @@
  * TODO: with the distributive property in mind, simplify the following,
  * where "A" represents some boolean expression.
  * */
-
+/*
 if (A) {
 	X();
 	Y();
@@ -15,6 +15,12 @@ if (A) {
 	W();
 	Z();
 }
-
-
+*/
+X(); 
+if (A) {
+    Y(); 
+} else {
+    W(); 
+}
+Z();
 // vim:foldlevel=2
